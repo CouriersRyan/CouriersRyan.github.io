@@ -88,6 +88,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*
+ * Buttons
+ */
+
+.link_buttons {
+  background-color: #858ed1;
+  border-left-color: #2d1493;
+  border-left-style: solid;
+  border-left-width: 5px;
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 14px 8px;
+  cursor: pointer;
+  font-family: Economica;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

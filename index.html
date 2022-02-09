@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Ryan Zhang - Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,6 +18,8 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,10 +27,22 @@
 <body>
 
   <!-- Add your site or application content here -->
+  <div class="row">
   <p>Hello world! I'm Ryan Zhang.</p>
-  <a href="https://www.linkedin.com/in/ryan-l-zhang">LinkedIn</a>
-  <a href="https://www.github.com/CouriersRyan">Github</a>
-  <a href="https://lokkei.itch.io/">Itch.io</a>
+  </div>
+  <div class="row">
+    <div class="col-sm-1">
+      <button onclick="window.location.href='https://www.linkedin.com/in/ryan-l-zhang'" class="link_buttons">LinkedIn</button>
+    </div>
+    <div class="col-sm-1">
+      <button onclick="window.location.href='https://www.github.com/CouriersRyan'" class="link_buttons">Github</button>
+    </div>
+    <div class="col-sm-1">
+      <button onclick="window.location.href='https://lokkei.itch.io/'" class="link_buttons">Itch.io</button>
+    </div>
+  </div>
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
