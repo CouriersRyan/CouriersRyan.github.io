@@ -108,6 +108,18 @@ textarea {
   font-family: Economica;
 }
 
+.list-group {
+  align-content: center;
+}
+
+.list-group-item {
+  align-content: center;
+}
+
+body{
+  background: url("../img/background.png") repeat 0 0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

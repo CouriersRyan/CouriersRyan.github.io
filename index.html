@@ -17,9 +17,9 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -27,19 +27,28 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="row">
-  <p>Hello world! I'm Ryan Zhang.</p>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Portfolio</h1>
+      <p>Hello world! I'm Ryan Zhang.</p>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm-1">
-      <button onclick="window.location.href='https://www.linkedin.com/in/ryan-l-zhang'" class="link_buttons">LinkedIn</button>
-    </div>
-    <div class="col-sm-1">
-      <button onclick="window.location.href='https://www.github.com/CouriersRyan'" class="link_buttons">Github</button>
-    </div>
-    <div class="col-sm-1">
-      <button onclick="window.location.href='https://lokkei.itch.io/'" class="link_buttons">Itch.io</button>
-    </div>
+
+  <div class="container">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <button onclick="window.location.href='https://www.linkedin.com/in/ryan-l-zhang'" class="link_buttons">
+          LinkedIn
+        </button>
+      </li>
+      <li class="list-group-item">
+        <button onclick="window.location.href='https://www.github.com/CouriersRyan'" class="link_buttons">Github
+        </button>
+      </li>
+      <li class="list-group-item">
+        <button onclick="window.location.href='https://lokkei.itch.io/'" class="link_buttons">Itch.io</button>
+      </li>
+    </ul>
   </div>
 
 
