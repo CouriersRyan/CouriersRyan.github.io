@@ -96,15 +96,16 @@ textarea {
   background-color: #858ed1;
   border-left-color: #2d1493;
   border-left-style: solid;
-  border-left-width: 5px;
+  border-left-width: 12px;
   color: white;
-  padding: 16px 20px;
+  padding: 16px 36px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-  margin: 14px 8px;
+  margin: 12px 8px;
   cursor: pointer;
+  width: 50%;
   font-family: Economica;
 }
 
@@ -114,10 +115,12 @@ textarea {
 
 .list-group-item {
   align-content: center;
+  text-align: center;
 }
 
 body{
   background: url("../img/background.png") repeat 0 0;
+  background-size: cover
 }
 
 /* ==========================================================================
