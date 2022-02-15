@@ -92,9 +92,21 @@ textarea {
  * Buttons
  */
 
+.list-group {
+  align-content: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.list-group-item {
+  align-content: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  border-width: 0px;
+}
+
 .link_buttons {
-  background-color: #858ed1;
-  border-left-color: #2d1493;
+  background-color: #9f9fad;
+  border-left-color: #3d3b44;
   border-left-style: solid;
   border-left-width: 12px;
   color: white;
@@ -107,15 +119,7 @@ textarea {
   cursor: pointer;
   width: 50%;
   font-family: Economica;
-}
-
-.list-group {
-  align-content: center;
-}
-
-.list-group-item {
-  align-content: center;
-  text-align: center;
+  opacity: 1;
 }
 
 body{
