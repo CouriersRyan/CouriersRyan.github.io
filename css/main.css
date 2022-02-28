@@ -95,6 +95,7 @@ textarea {
 .list-group {
   align-content: center;
   background: rgba(0, 0, 0, 0);
+  margin-top: 40px;
 }
 
 .list-group-item {
@@ -105,26 +106,32 @@ textarea {
 }
 
 .link_buttons {
-  background-color: #9f9fad;
-  border-left-color: #3d3b44;
-  border-left-style: solid;
-  border-left-width: 12px;
   color: white;
-  padding: 16px 36px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
   margin: 12px 8px;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   font-family: Economica;
   opacity: 1;
+}
+
+.button_image{
+  max-width: 80%;
+  height: auto;
 }
 
 body{
   background: url("../img/background.png") repeat 0 0;
   background-size: cover
+}
+
+.jumbotron{
+  padding: 20px;
+  text-align: center;
+  background: white;
 }
 
 /* ==========================================================================
