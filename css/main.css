@@ -124,14 +124,33 @@ textarea {
 }
 
 body{
-  background: url("../img/background.png") repeat 0 0;
+  background: #000000;
   background-size: cover
 }
 
 .jumbotron{
   padding: 20px;
   text-align: center;
-  background: white;
+  background: url("../img/background.png") repeat 0 0;
+}
+
+.title{
+  color: white
+}
+
+.subtitle{
+  color: white
+}
+
+.resume-link{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.resume-link:hover{
+  text-decoration: none;
+  color: #b3d4fc;
 }
 
 /* ==========================================================================
