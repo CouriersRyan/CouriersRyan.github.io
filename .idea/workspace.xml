@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf05bc3e-009a-45cc-a117-b4941b8f0218" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/antiquitus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/1a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/AntiquitusSample0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf/Antiquitus_Rulebook.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nondigital.html" beforeDir="false" afterPath="$PROJECT_DIR$/nondigital.html" afterDir="false" />
-    </list>
+    <list default="true" id="cf05bc3e-009a-45cc-a117-b4941b8f0218" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +82,7 @@
       <workItem from="1646063701341" duration="2265000" />
       <workItem from="1648408876060" duration="3067000" />
       <workItem from="1648497833754" duration="1634000" />
-      <workItem from="1648499499263" duration="297000" />
+      <workItem from="1648499499263" duration="308000" />
     </task>
     <servers />
   </component>
